@@ -45,7 +45,6 @@ void prefixSum(vector<int>& arr) {
 }
 
 int main() {
-
     int n;
     cin >> n;
 

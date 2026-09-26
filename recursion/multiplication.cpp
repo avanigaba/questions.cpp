@@ -1,8 +1,8 @@
 #include<iostream>
 using namespace std;
 int multiplicationofdigits(int n ,int m){
-if (n==1&&m==1)
-return 1;
+ if (m == 0)
+        return 0;
 int smallans= multiplicationofdigits(n ,(m-1));
 int output = smallans+n;
 return output;
